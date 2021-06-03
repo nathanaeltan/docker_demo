@@ -55,7 +55,7 @@ app.use(
 // url-encoded parser
 app.get("/api", (req, res) => {
   console.log("YEAH IT WORKS");
-  res.send("HELLO asdsadasasdasdasdasdllll!!!");
+  res.send("HELLO TEST CHANGES");
 });
 
 app.use("/api/v1/posts", postRouter);
